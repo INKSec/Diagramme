@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T13:24:28.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Cj9F5QcLro195ufwSxB9" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T13:47:51.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="y53hHyNIrBVTDmLe-pF5" version="24.2.7" type="github">
   <diagram name="Seite-1" id="JZL2gmLyCEUYIIFYZonD">
     <mxGraphModel dx="1252" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <object label="«Komponente»&lt;br&gt;&lt;b&gt;Datenausgabe&lt;/b&gt;" id="bn_bZVeaxfDnxdk5Uxtt-3">
+        <object label="«Komponente»&lt;br&gt;&lt;b&gt;Ausgabedatei&lt;/b&gt;" id="bn_bZVeaxfDnxdk5Uxtt-3">
           <mxCell style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="60" y="320" width="180" height="90" as="geometry" />
           </mxCell>
@@ -77,6 +77,53 @@
         </mxCell>
         <mxCell id="AgbvA6vMzM-KRcMDF32A-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="475" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-12" value="" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="700" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-13" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="AgbvA6vMzM-KRcMDF32A-12">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="48.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395.88" y="520" width="28.25" height="25" as="geometry" />
+        </mxCell>
+        <object label="«Komponente»&lt;br&gt;&lt;b&gt;Daten einlesen&lt;/b&gt;" id="AgbvA6vMzM-KRcMDF32A-19">
+          <mxCell style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="120" y="585" width="180" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-20" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="AgbvA6vMzM-KRcMDF32A-19">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="«Komponente»&lt;br&gt;&lt;b&gt;Daten formatieren&lt;/b&gt;" id="AgbvA6vMzM-KRcMDF32A-21">
+          <mxCell style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="325" y="585" width="180" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-22" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="AgbvA6vMzM-KRcMDF32A-21">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="«Komponente»&lt;br&gt;&lt;b&gt;Daten aufbereiten&lt;/b&gt;" id="AgbvA6vMzM-KRcMDF32A-23">
+          <mxCell style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="530" y="585" width="180" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-24" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="AgbvA6vMzM-KRcMDF32A-23">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AgbvA6vMzM-KRcMDF32A-25" value="Datenauswertung" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="379" y="545" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
