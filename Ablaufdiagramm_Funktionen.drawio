@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T11:46:10.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="TMjy5Y1DZSzCxYCxgRWM" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T12:05:08.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="dxPVBbIFNpsUlJeBfI-E" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1252" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,8 +110,77 @@
         <mxCell id="PRaoMw5m5jJZB09oyUVn-23" value="Ersetze fehlende Daten mit Nullen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="790" width="290" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-27" target="PRaoMw5m5jJZB09oyUVn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PRaoMw5m5jJZB09oyUVn-27" value="Sortiere das Dictionary Objekt mit Hilfe der extrahierten Datumsangaben" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="149.38" y="860" width="148.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-30" target="PRaoMw5m5jJZB09oyUVn-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-30" target="PRaoMw5m5jJZB09oyUVn-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1030" />
+              <mxPoint x="90" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-30" value="Für jedes Objekt in der Liste" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="144.37" y="950" width="158.75" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-32" target="PRaoMw5m5jJZB09oyUVn-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-32" value="Berechne die Methode Earned Value 0/100 in Prozent und füge die Werte als zusätzliche Spalte hinzu" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1010" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-33" target="PRaoMw5m5jJZB09oyUVn-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-33" value="Berechne die Methode Earned Value 20/80 in Prozent und füge die Werte als zusätzliche Spalte hinzu" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1070" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-34" target="PRaoMw5m5jJZB09oyUVn-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-34" value="Berechne die Methode Earned Value 50/50 in Prozent und füge die Werte als zusätzliche Spalte hinzu" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1129" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-38" target="PRaoMw5m5jJZB09oyUVn-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-38" value="Lösche alle Zeilen, in denen die Spalte Estimated at completion ungleich 0 ist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1190" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-42" target="PRaoMw5m5jJZB09oyUVn-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-42" value="Lösche alle Zeilen, in denen die Spalte Stufe&amp;nbsp; ungleich &quot;SUM&quot; ist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1270" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-44" target="PRaoMw5m5jJZB09oyUVn-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-44" value="Berechne den Wert der Methoden in Euro anhand der berechneten Prozentwerte" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1330" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-60" target="PRaoMw5m5jJZB09oyUVn-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-60" value="Summieren aller Arbeitspakte und Durchschnittsberechnung" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1410" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PRaoMw5m5jJZB09oyUVn-64" target="PRaoMw5m5jJZB09oyUVn-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-64" value="Abschließende Formatierung der Dataframes im Dictionary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="1580" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PRaoMw5m5jJZB09oyUVn-65" value="Erstellen eines Diagrammes auf Basis der Daten und Ausgabe an das Betriebssystem als Excel Datei" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="1680" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
