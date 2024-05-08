@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T12:28:31.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="gcZrKEFmGPLFVRz7t3uj" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T18:15:50.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="UIS8mnT54YD1KwvHxJ0B" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1252" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -124,7 +124,7 @@
             <mxPoint x="100" y="1530" as="targetPoint" />
             <Array as="points">
               <mxPoint x="90" y="1030" />
-              <mxPoint x="90" y="1610" />
+              <mxPoint x="90" y="1520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -177,10 +177,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PRaoMw5m5jJZB09oyUVn-64" value="Abschließende Formatierung der Dataframes im Dictionary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="1580" width="290" height="60" as="geometry" />
+          <mxGeometry x="110" y="1490" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PRaoMw5m5jJZB09oyUVn-65" value="Erstellen eines Diagrammes auf Basis der Daten und Ausgabe an das Betriebssystem als Excel Datei" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="1680" width="290" height="60" as="geometry" />
+          <mxGeometry x="110" y="1580" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
