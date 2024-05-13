@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T13:18:27.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="bqI2VJ83InSbJPX0klUL" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T13:22:08.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="5vkSIr-Z6W3A95mrUAUw" version="24.4.0" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1043" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -25,12 +25,12 @@
         <mxCell id="oJ24R1BPleVEDtxCF9HJ-4" value="Überprüfe ob Parameter vom Nutzer übergeben wurden" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oJ24R1BPleVEDtxCF9HJ-8" value="Keine Berichte vorhanden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-5" target="oJ24R1BPleVEDtxCF9HJ-7">
+        <mxCell id="oJ24R1BPleVEDtxCF9HJ-8" value="Keine Berichte vorhanden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-5" target="oJ24R1BPleVEDtxCF9HJ-7">
           <mxGeometry x="-0.1429" y="25" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oJ24R1BPleVEDtxCF9HJ-9" value="Berichte gefunden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-5" target="oJ24R1BPleVEDtxCF9HJ-4">
+        <mxCell id="oJ24R1BPleVEDtxCF9HJ-9" value="Berichte gefunden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-5" target="oJ24R1BPleVEDtxCF9HJ-4">
           <mxGeometry y="30" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -140,12 +140,11 @@
         <mxCell id="oJ24R1BPleVEDtxCF9HJ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-43" target="oJ24R1BPleVEDtxCF9HJ-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oJ24R1BPleVEDtxCF9HJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-43" target="oJ24R1BPleVEDtxCF9HJ-23">
+        <mxCell id="oJ24R1BPleVEDtxCF9HJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-43" target="oJ24R1BPleVEDtxCF9HJ-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="660" as="targetPoint" />
+            <mxPoint x="570" y="910" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="970" />
-              <mxPoint x="550" y="660" />
+              <mxPoint x="630" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -236,6 +235,16 @@
         </mxCell>
         <mxCell id="oJ24R1BPleVEDtxCF9HJ-74" value="Ende" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="382.5" y="1990" width="35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oJ24R1BPleVEDtxCF9HJ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJ24R1BPleVEDtxCF9HJ-76" target="oJ24R1BPleVEDtxCF9HJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oJ24R1BPleVEDtxCF9HJ-76" value="Bericht überspringen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
